@@ -1,10 +1,9 @@
-const Home = () => {
-  return (
-    <>
-      <h1>Home</h1>
-      <p>Learn 100</p>
-    </>
-  );
-};
+import Title from "@/components/Title/Title";
+
+const Home = () => (
+  <>
+    <Title text="Home" />
+  </>
+);
 
 export default Home;

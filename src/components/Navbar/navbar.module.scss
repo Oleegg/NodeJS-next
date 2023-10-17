@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+
+  li {
+    margin-left: 20px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.active {
+  background-color: #f00;
+}

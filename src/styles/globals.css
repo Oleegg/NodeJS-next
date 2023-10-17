@@ -1,3 +1,21 @@
-html {
-  margin: 0, auto;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background:
+  radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+body{
+ width: 100%;
+}
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  width: 1420px;
 }
